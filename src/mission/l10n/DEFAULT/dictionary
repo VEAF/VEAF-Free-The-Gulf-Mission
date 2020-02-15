@@ -11,10 +11,11 @@ veafNamedPoints.initialize()\
 veafSecurity.initialize()\
 veafCombatZone.initialize()\
 veafInterpreter.initialize()",
-    ["DictKey_descriptionBlueTask_3"] = "",
+    ["DictKey_descriptionBlueTask_3"] = "free the gulf\
+free RED airports",
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
-    ["DictKey_descriptionText_1"] = "",
+    ["DictKey_descriptionText_1"] = "Free The Gulf !",
     ["DictKey_GroupName_115"] = "Vinson F-14B",
     ["DictKey_GroupName_131"] = "Arco",
     ["DictKey_GroupName_136"] = "Texaco",

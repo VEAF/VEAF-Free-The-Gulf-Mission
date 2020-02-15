@@ -11119,7 +11119,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 7537,
+    ["currentKey"] = 8419,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 6,
@@ -17359,6 +17359,24 @@ mission = {
         }, -- end of ["WEAPONS_FAILURE_TOTAL"]
     }, -- end of ["failures"]
     ["forcedOptions"] = {
+        ["birds"] = 20,
+        ["civTraffic"] = "",
+        ["easyCommunication"] = false,
+        ["easyFlight"] = false,
+        ["easyRadar"] = false,
+        ["externalViews"] = true,
+        ["fuel"] = false,
+        ["geffect"] = "realistic",
+        ["immortal"] = false,
+        ["labels"] = 3,
+        ["miniHUD"] = false,
+        ["optionsView"] = "optview_all",
+        ["permitCrash"] = false,
+        ["RBDAI"] = false,
+        ["unrestrictedSATNAV"] = true,
+        ["userMarks"] = true,
+        ["wakeTurbulence"] = false,
+        ["weapons"] = false,
     }, -- end of ["forcedOptions"]
     ["goals"] = {
     }, -- end of ["goals"]
@@ -17388,9 +17406,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -3867.1025697283,
-        ["centerY"] = -180013.45922333,
-        ["zoom"] = 3098.3043520201,
+        ["centerX"] = -25021.296287036,
+        ["centerY"] = -22971.263633186,
+        ["zoom"] = 1050018.7836161,
     }, -- end of ["map"]
     ["maxDictId"] = 340,
     ["pictureFileNameB"] = {
@@ -17430,7 +17448,7 @@ mission = {
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 28800,
+    ["start_time"] = 19800,
     ["theatre"] = "PersianGulf",
     ["trig"] = {
         ["actions"] = {
@@ -17691,9 +17709,9 @@ mission = {
         }, -- end of ["fog"]
         ["groundTurbulence"] = 0,
         ["name"] = "Winter, clean sky",
-        ["qnh"] = 760,
+        ["qnh"] = 762.508,
         ["season"] = {
-            ["temperature"] = 20,
+            ["temperature"] = 29,
         }, -- end of ["season"]
         ["type_weather"] = 0,
         ["visibility"] = {
@@ -17701,16 +17719,16 @@ mission = {
         }, -- end of ["visibility"]
         ["wind"] = {
             ["at2000"] = {
-                ["dir"] = 0,
-                ["speed"] = 0,
+                ["dir"] = 297,
+                ["speed"] = 2.0616,
             }, -- end of ["at2000"]
             ["at8000"] = {
-                ["dir"] = 0,
-                ["speed"] = 0,
+                ["dir"] = 342,
+                ["speed"] = 4.1232,
             }, -- end of ["at8000"]
             ["atGround"] = {
-                ["dir"] = 0,
-                ["speed"] = 0,
+                ["dir"] = 229,
+                ["speed"] = 0.5154,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]
     }, -- end of ["weather"]
