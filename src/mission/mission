@@ -6159,6 +6159,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -6242,6 +6243,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -6325,6 +6327,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -6408,6 +6411,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -6491,6 +6495,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -6574,6 +6579,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -6657,6 +6663,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -6740,6 +6747,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -6823,6 +6831,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -6906,6 +6915,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -7019,6 +7029,406 @@ mission = {
                 [1] = {
                     ["id"] = 0,
                     ["name"] = "Russia",
+                    ["vehicle"] = {
+                        ["group"] = {
+                            [1] = {
+                                ["groupId"] = 23,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_187",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 36,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_189",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -2248.0823535423,
+                                            ["y"] = -1444.2082624092,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                        [1] = {
+                                            [1] = {
+                                                ["x"] = 317.70901611842,
+                                                ["y"] = -141.29009912546,
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["x"] = 281.55568654147,
+                                                ["y"] = -93.645495645755,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 2.2199137383604,
+                                        ["name"] = "DictKey_UnitName_188",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 47,
+                                        ["x"] = -2248.0823535423,
+                                        ["y"] = -1444.2082624092,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -2248.0823535423,
+                                ["y"] = -1444.2082624092,
+                            }, -- end of [1]
+                            [2] = {
+                                ["groupId"] = 24,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_191",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 16,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_193",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 790.57107592893,
+                                            ["y"] = -76.142862181098,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                        [1] = {
+                                            [1] = {
+                                                ["x"] = 317.70901611842,
+                                                ["y"] = -141.29009912546,
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["x"] = 281.55568654147,
+                                                ["y"] = -93.645495645755,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 2.2199137383604,
+                                        ["name"] = "DictKey_UnitName_192",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 48,
+                                        ["x"] = 790.57107592893,
+                                        ["y"] = -76.142862181098,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 790.57107592893,
+                                ["y"] = -76.142862181098,
+                            }, -- end of [2]
+                            [3] = {
+                                ["groupId"] = 25,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_194",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 16,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_196",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -26227.922511084,
+                                            ["y"] = -171255.03507875,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                        [1] = {
+                                            [1] = {
+                                                ["x"] = 317.70901611842,
+                                                ["y"] = -141.29009912546,
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["x"] = 281.55568654147,
+                                                ["y"] = -93.645495645755,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 2.2199137383604,
+                                        ["name"] = "DictKey_UnitName_195",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 49,
+                                        ["x"] = -26227.922511084,
+                                        ["y"] = -171255.03507875,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -26227.922511084,
+                                ["y"] = -171255.03507875,
+                            }, -- end of [3]
+                            [4] = {
+                                ["groupId"] = 26,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_197",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 16,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_199",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -26401.831080019,
+                                            ["y"] = -172236.52059741,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                        [1] = {
+                                            [1] = {
+                                                ["x"] = 317.70901611842,
+                                                ["y"] = -141.29009912546,
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["x"] = 281.55568654147,
+                                                ["y"] = -93.645495645755,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 2.2199137383604,
+                                        ["name"] = "DictKey_UnitName_198",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 50,
+                                        ["x"] = -26401.831080019,
+                                        ["y"] = -172236.52059741,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -26401.831080019,
+                                ["y"] = -172236.52059741,
+                            }, -- end of [4]
+                            [5] = {
+                                ["groupId"] = 27,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_200",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 16,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_202",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -27258.101005627,
+                                            ["y"] = -170024.84843954,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                        [1] = {
+                                            [1] = {
+                                                ["x"] = 317.70901611842,
+                                                ["y"] = -141.29009912546,
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["x"] = 281.55568654147,
+                                                ["y"] = -93.645495645755,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 0.83775804095728,
+                                        ["name"] = "DictKey_UnitName_201",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 51,
+                                        ["x"] = -27258.101005627,
+                                        ["y"] = -170024.84843954,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -27258.101005627,
+                                ["y"] = -170024.84843954,
+                            }, -- end of [5]
+                            [6] = {
+                                ["groupId"] = 28,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_203",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 16,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_205",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 169742.7385094,
+                                            ["y"] = -183060.7182997,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                        [1] = {
+                                            [1] = {
+                                                ["x"] = 317.70901611842,
+                                                ["y"] = -141.29009912546,
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["x"] = 281.55568654147,
+                                                ["y"] = -93.645495645755,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 2.2199137383604,
+                                        ["name"] = "DictKey_UnitName_204",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 52,
+                                        ["x"] = 169742.7385094,
+                                        ["y"] = -183060.7182997,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 169742.7385094,
+                                ["y"] = -183060.7182997,
+                            }, -- end of [6]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
                 }, -- end of [1]
                 [2] = {
                     ["id"] = 18,
@@ -7146,7 +7556,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2516,
+    ["currentKey"] = 4096,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 6,
@@ -13390,22 +13800,22 @@ mission = {
     ["goals"] = {
     }, -- end of ["goals"]
     ["groundControl"] = {
-        ["isPilotControlVehicles"] = false,
+        ["isPilotControlVehicles"] = true,
         ["roles"] = {
             ["artillery_commander"] = {
-                ["blue"] = 0,
+                ["blue"] = 2,
                 ["neutrals"] = 0,
-                ["red"] = 0,
+                ["red"] = 2,
             }, -- end of ["artillery_commander"]
             ["forward_observer"] = {
-                ["blue"] = 0,
+                ["blue"] = 2,
                 ["neutrals"] = 0,
-                ["red"] = 0,
+                ["red"] = 2,
             }, -- end of ["forward_observer"]
             ["instructor"] = {
-                ["blue"] = 0,
+                ["blue"] = 2,
                 ["neutrals"] = 0,
-                ["red"] = 0,
+                ["red"] = 2,
             }, -- end of ["instructor"]
             ["observer"] = {
                 ["blue"] = 0,
@@ -13415,11 +13825,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 23185.217376857,
-        ["centerY"] = -137598.95152119,
-        ["zoom"] = 1026986.4399593,
+        ["centerX"] = 168465.70538523,
+        ["centerY"] = -184120.93724956,
+        ["zoom"] = 26390.327294306,
     }, -- end of ["map"]
-    ["maxDictId"] = 186,
+    ["maxDictId"] = 205,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
