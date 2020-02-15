@@ -3,7 +3,8 @@ dictionary = {
  [\"RED QRA LAR\"] = \"ready\",\
  [\"RED QRA LAVAN\"] = \"ready\",\
  [\"RED QRA BANDAR LENGEH\"] = \"ready\",\
- [\"RED QRA BANDAR HAVADARYA\"] = \"ready\",\
+ [\"RED QRA HAVADARYA\"] = \"ready\",\
+ [\"RED QRA KHASAB\"] = \"ready\",\
 };\
 ",
     ["DictKey_ActionText_401"] = "mist.respawnGroup(\"RED QRA LAVAN\",true);\
@@ -71,6 +72,19 @@ veafSecurity.initialize()\
 veafCombatZone.initialize()\
 veafInterpreter.initialize()",
     ["DictKey_ActionText_480"] = "Overlord: new units are orbiting on north of LAVAN",
+    ["DictKey_ActionText_487"] = "return qra[\"RED QRA KHASAB\"]==\"ready\"",
+    ["DictKey_ActionText_488"] = "qra[\"RED QRA KHASAB\"]=\"doing\";\
+mist.respawnGroup(\"RED QRA KHASAB\",true);\
+",
+    ["DictKey_ActionText_490"] = "Overlord: popup group KHASAB east",
+    ["DictKey_ActionText_491"] = "return qra[\"RED QRA KHASAB\"]==\"doing\"\
+",
+    ["DictKey_ActionText_492"] = "return not Group.getByName(\"RED QRA KHASAB\")\
+",
+    ["DictKey_ActionText_493"] = "qra[\"RED QRA KHASAB\"]=\"dead\";",
+    ["DictKey_ActionText_494"] = "Overlord: KHASAB group faded",
+    ["DictKey_ActionText_495"] = "return qra[\"RED QRA KHASAB\"]==\"dead\"",
+    ["DictKey_ActionText_496"] = "qra[\"RED QRA KHASAB\"]=\"ready\";",
     ["DictKey_descriptionBlueTask_3"] = "free RED airports\
 free the gulf\
 \
@@ -145,7 +159,7 @@ SHELL KC135 16Y/SHL FL220 V136\
     ["DictKey_GroupName_465"] = "TEST HAVADARYA",
     ["DictKey_GroupName_470"] = "TEST BANDAR LENGEH",
     ["DictKey_GroupName_475"] = "TEST BANDAR LENGEH",
-    ["DictKey_GroupName_481"] = "RED QRA HAVADARYA #001",
+    ["DictKey_GroupName_481"] = "RED QRA KHASAB",
     ["DictKey_GroupName_50"] = "Al Minhad - AV-8B",
     ["DictKey_GroupName_6"] = "New Airplane Group",
     ["DictKey_GroupName_65"] = "Stennis Group",

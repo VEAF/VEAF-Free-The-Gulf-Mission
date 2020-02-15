@@ -7793,31 +7793,31 @@ mission = {
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                                 [1] = {
-                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+                                                    ["CLSID"] = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
                                                 }, -- end of [1]
                                                 [2] = {
-                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-9M",
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-9X",
                                                 }, -- end of [2]
                                                 [3] = {
-                                                    ["CLSID"] = "{FPU_8A_FUEL_TANK}",
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-120C",
                                                 }, -- end of [3]
                                                 [4] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+                                                    ["CLSID"] = "{AIM-7H}",
                                                 }, -- end of [4]
                                                 [5] = {
                                                     ["CLSID"] = "{FPU_8A_FUEL_TANK}",
                                                 }, -- end of [5]
                                                 [6] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+                                                    ["CLSID"] = "{AIM-7H}",
                                                 }, -- end of [6]
                                                 [7] = {
-                                                    ["CLSID"] = "{FPU_8A_FUEL_TANK}",
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-120C",
                                                 }, -- end of [7]
                                                 [8] = {
-                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-9M",
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-9X",
                                                 }, -- end of [8]
                                                 [9] = {
-                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+                                                    ["CLSID"] = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
@@ -8030,31 +8030,31 @@ mission = {
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                                 [1] = {
-                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+                                                    ["CLSID"] = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
                                                 }, -- end of [1]
                                                 [2] = {
-                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-9M",
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-9X",
                                                 }, -- end of [2]
                                                 [3] = {
-                                                    ["CLSID"] = "{FPU_8A_FUEL_TANK}",
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-120C",
                                                 }, -- end of [3]
                                                 [4] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+                                                    ["CLSID"] = "{AIM-7H}",
                                                 }, -- end of [4]
                                                 [5] = {
                                                     ["CLSID"] = "{FPU_8A_FUEL_TANK}",
                                                 }, -- end of [5]
                                                 [6] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+                                                    ["CLSID"] = "{AIM-7H}",
                                                 }, -- end of [6]
                                                 [7] = {
-                                                    ["CLSID"] = "{FPU_8A_FUEL_TANK}",
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-120C",
                                                 }, -- end of [7]
                                                 [8] = {
-                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-9M",
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-9X",
                                                 }, -- end of [8]
                                                 [9] = {
-                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+                                                    ["CLSID"] = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
@@ -13848,8 +13848,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 32416.739257919,
-                                            ["y"] = -264341.42685472,
+                                            ["x"] = 160728.73082073,
+                                            ["y"] = -307256.38461989,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -13934,7 +13934,7 @@ mission = {
                                             ["name"] = "Enfield11",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.65729838846155,
+                                        ["heading"] = -3.119089718356,
                                         ["livery_id"] = "IRIAF Asia Minor",
                                         ["name"] = "DictKey_UnitName_395",
                                         ["onboard_num"] = "027",
@@ -13970,13 +13970,13 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.65729838846155,
+                                        ["psi"] = 3.119089718356,
                                         ["skill"] = "Random",
                                         ["speed"] = 256.94444444444,
                                         ["type"] = "F-4E",
                                         ["unitId"] = 108,
-                                        ["x"] = 32416.739257919,
-                                        ["y"] = -264341.42685472,
+                                        ["x"] = 160728.73082073,
+                                        ["y"] = -307256.38461989,
                                     }, -- end of [1]
                                     [2] = {
                                         ["alt"] = 4572,
@@ -13987,7 +13987,7 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Enfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.65729838846155,
+                                        ["heading"] = -3.119089718356,
                                         ["livery_id"] = "IRIAF Asia Minor",
                                         ["name"] = "DictKey_UnitName_398",
                                         ["onboard_num"] = "010",
@@ -14023,17 +14023,17 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.65729838846155,
+                                        ["psi"] = 3.119089718356,
                                         ["skill"] = "Random",
                                         ["speed"] = 256.94444444444,
                                         ["type"] = "F-4E",
                                         ["unitId"] = 110,
-                                        ["x"] = 32376.739257919,
-                                        ["y"] = -264301.42685472,
+                                        ["x"] = 160688.73082073,
+                                        ["y"] = -307216.38461989,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 32416.739257919,
-                                ["y"] = -264341.42685472,
+                                ["x"] = 160728.73082073,
+                                ["y"] = -307256.38461989,
                             }, -- end of [1]
                             [2] = {
                                 ["communication"] = true,
@@ -14080,8 +14080,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 244536.55630266,
-                                            ["y"] = -167454.94921771,
+                                            ["x"] = 226610.82731211,
+                                            ["y"] = -203070.74365679,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -14166,7 +14166,7 @@ mission = {
                                             ["name"] = "Enfield11",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -2.6736837067468,
+                                        ["heading"] = -3.1275947085133,
                                         ["livery_id"] = "IRIAF Asia Minor",
                                         ["name"] = "DictKey_UnitName_410",
                                         ["onboard_num"] = "027",
@@ -14202,13 +14202,13 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.6736837067468,
+                                        ["psi"] = 3.1275947085133,
                                         ["skill"] = "Random",
                                         ["speed"] = 256.94444444444,
                                         ["type"] = "F-4E",
                                         ["unitId"] = 111,
-                                        ["x"] = 244536.55630266,
-                                        ["y"] = -167454.94921771,
+                                        ["x"] = 226610.82731211,
+                                        ["y"] = -203070.74365679,
                                     }, -- end of [1]
                                     [2] = {
                                         ["alt"] = 4572,
@@ -14219,7 +14219,7 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Enfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -2.6736837067468,
+                                        ["heading"] = -3.1275947085133,
                                         ["livery_id"] = "IRIAF Asia Minor",
                                         ["name"] = "DictKey_UnitName_411",
                                         ["onboard_num"] = "010",
@@ -14255,17 +14255,17 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.6736837067468,
+                                        ["psi"] = 3.1275947085133,
                                         ["skill"] = "Random",
                                         ["speed"] = 256.94444444444,
                                         ["type"] = "F-4E",
                                         ["unitId"] = 112,
-                                        ["x"] = 244496.55630266,
-                                        ["y"] = -167414.94921771,
+                                        ["x"] = 226570.82731211,
+                                        ["y"] = -203030.74365679,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 244536.55630266,
-                                ["y"] = -167454.94921771,
+                                ["x"] = 226610.82731211,
+                                ["y"] = -203070.74365679,
                             }, -- end of [2]
                             [3] = {
                                 ["communication"] = true,
@@ -14312,8 +14312,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 200735.93839674,
-                                            ["y"] = 40021.661915579,
+                                            ["x"] = 193544.65415448,
+                                            ["y"] = 20131.670688863,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -14400,7 +14400,7 @@ mission = {
                                             ["name"] = "Enfield11",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -2.8405588731869,
+                                        ["heading"] = -3.1080674246539,
                                         ["livery_id"] = "IR IRIAF 43rd TFS",
                                         ["name"] = "DictKey_UnitName_416",
                                         ["onboard_num"] = "027",
@@ -14428,13 +14428,13 @@ mission = {
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.8405588731869,
+                                        ["psi"] = 3.1080674246539,
                                         ["skill"] = "Random",
                                         ["speed"] = 174.72222222222,
                                         ["type"] = "F-5E-3",
                                         ["unitId"] = 113,
-                                        ["x"] = 200735.93839674,
-                                        ["y"] = 40021.661915579,
+                                        ["x"] = 193544.65415448,
+                                        ["y"] = 20131.670688863,
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
@@ -14448,7 +14448,7 @@ mission = {
                                             ["name"] = "Enfield12",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -2.8405588731869,
+                                        ["heading"] = -3.1080674246539,
                                         ["livery_id"] = "IR IRIAF 43rd TFS",
                                         ["name"] = "DictKey_UnitName_421",
                                         ["onboard_num"] = "028",
@@ -14476,17 +14476,17 @@ mission = {
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.8405588731869,
+                                        ["psi"] = 3.1080674246539,
                                         ["skill"] = "Random",
                                         ["speed"] = 174.72222222222,
                                         ["type"] = "F-5E-3",
                                         ["unitId"] = 115,
-                                        ["x"] = 200695.93839674,
-                                        ["y"] = 40061.661915579,
+                                        ["x"] = 193504.65415448,
+                                        ["y"] = 20171.670688863,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 200735.93839674,
-                                ["y"] = 40021.661915579,
+                                ["x"] = 193544.65415448,
+                                ["y"] = 20131.670688863,
                             }, -- end of [3]
                             [4] = {
                                 ["communication"] = true,
@@ -14754,14 +14754,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 48911.083427979,
-                                            ["y"] = 112017.89744628,
+                                            ["x"] = 17171.591494643,
+                                            ["y"] = 122000.53963958,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 4572,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 315.86849908521,
+                                            ["ETA"] = 484.11652918405,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_485",
@@ -14779,14 +14779,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 4215.1708987749,
-                                            ["y"] = 60122.643301628,
+                                            ["x"] = 17893.75862995,
+                                            ["y"] = 35314.439131661,
                                         }, -- end of [2]
                                         [3] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 4572,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 552.66992542885,
+                                            ["ETA"] = 739.01243519843,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_486",
@@ -14819,8 +14819,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -31781.537178437,
-                                            ["y"] = 39724.508724542,
+                                            ["x"] = -24515.064646239,
+                                            ["y"] = 21714.985254064,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -14842,7 +14842,7 @@ mission = {
                                             ["name"] = "Enfield11",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -2.2817978913675,
+                                        ["heading"] = -1.5624656898764,
                                         ["livery_id"] = "IR IRIAF 43rd TFS",
                                         ["name"] = "DictKey_UnitName_482",
                                         ["onboard_num"] = "027",
@@ -14870,13 +14870,13 @@ mission = {
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.2817978913675,
+                                        ["psi"] = 1.5624656898764,
                                         ["skill"] = "Random",
                                         ["speed"] = 174.72222222222,
                                         ["type"] = "F-5E-3",
                                         ["unitId"] = 122,
-                                        ["x"] = 48911.083427979,
-                                        ["y"] = 112017.89744628,
+                                        ["x"] = 17171.591494643,
+                                        ["y"] = 122000.53963958,
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
@@ -14890,7 +14890,7 @@ mission = {
                                             ["name"] = "Enfield12",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -2.2817978913675,
+                                        ["heading"] = -1.5624656898764,
                                         ["livery_id"] = "IR IRIAF 43rd TFS",
                                         ["name"] = "DictKey_UnitName_483",
                                         ["onboard_num"] = "028",
@@ -14918,17 +14918,17 @@ mission = {
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.2817978913675,
+                                        ["psi"] = 1.5624656898764,
                                         ["skill"] = "Random",
                                         ["speed"] = 174.72222222222,
                                         ["type"] = "F-5E-3",
                                         ["unitId"] = 123,
-                                        ["x"] = 48871.083427979,
-                                        ["y"] = 112057.89744628,
+                                        ["x"] = 17131.591494643,
+                                        ["y"] = 122040.53963958,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 48911.083427979,
-                                ["y"] = 112017.89744628,
+                                ["x"] = 17171.591494643,
+                                ["y"] = 122000.53963958,
                             }, -- end of [5]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -15039,7 +15039,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 20302,
+    ["currentKey"] = 22075,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 6,
@@ -21326,11 +21326,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 48461.124577011,
-        ["centerY"] = 54723.137090048,
-        ["zoom"] = 1049903.9855853,
+        ["centerX"] = 43697.535299723,
+        ["centerY"] = -209882.19913095,
+        ["zoom"] = 1439392.2995004,
     }, -- end of ["map"]
-    ["maxDictId"] = 486,
+    ["maxDictId"] = 496,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
@@ -21373,7 +21373,7 @@ mission = {
     ["trig"] = {
         ["actions"] = {
             [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_25\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_26\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_27\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_28\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_29\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_30\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_31\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_32\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_33\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_34\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_35\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_36\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_37\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_49\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_38\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_39\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_40\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_41\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_42\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_43\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_48\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_44\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_45\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_46\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_47\"));",
-            [2] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_393\"));a_deactivate_group(63);a_deactivate_group(64);a_deactivate_group(65);a_deactivate_group(66);",
+            [2] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_393\"));a_deactivate_group(63);a_deactivate_group(64);a_deactivate_group(65);a_deactivate_group(66);a_deactivate_group(71);",
             [3] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_401\"));a_out_sound_s(\"blue\", getValueResourceByKey(\"ResKey_Action_403\"), 0);a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_404\"), 20, false, 0);",
             [4] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_405\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_408\"), 20, false, 0);",
             [5] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_428\"));a_deactivate_group(63);a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_480\"), 20, false, 0);",
@@ -21386,6 +21386,9 @@ mission = {
             [12] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_451\"));a_out_sound_s(\"blue\", getValueResourceByKey(\"ResKey_Action_452\"), 0);a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_453\"), 20, false, 0);",
             [13] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_456\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_457\"), 20, false, 0);",
             [14] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_459\"));a_deactivate_group(65);",
+            [15] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_488\"));a_out_sound_s(\"blue\", getValueResourceByKey(\"ResKey_Action_489\"), 0);a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_490\"), 20, false, 0);",
+            [16] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_493\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_494\"), 20, false, 0);",
+            [17] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_496\"));a_deactivate_group(71);",
         }, -- end of ["actions"]
         ["conditions"] = {
             [1] = "return(true)",
@@ -21402,6 +21405,9 @@ mission = {
             [12] = "return(c_predicate(getValueDictByKey(\"DictKey_ActionText_450\")) and c_coalition_has_airdrome(1, 9) and c_part_of_group_in_zone(12, 105) or c_part_of_group_in_zone(59, 105) or c_part_of_group_in_zone(60, 105) or c_part_of_group_in_zone(8, 105) or c_part_of_group_in_zone(9, 105) or c_part_of_group_in_zone(68, 105) or c_part_of_group_in_zone(7, 105) or c_part_of_group_in_zone(2, 105) or c_part_of_group_in_zone(62, 105) or c_part_of_group_in_zone(3, 105) )",
             [13] = "return(c_predicate(getValueDictByKey(\"DictKey_ActionText_454\")) and c_predicate(getValueDictByKey(\"DictKey_ActionText_455\")) )",
             [14] = "return(c_predicate(getValueDictByKey(\"DictKey_ActionText_458\")) and c_all_of_group_out_zone(3, 313) and c_all_of_group_out_zone(12, 313) and c_all_of_group_out_zone(59, 313) and c_all_of_group_out_zone(60, 313) and c_all_of_group_out_zone(2, 313) and c_all_of_group_out_zone(62, 313) and c_all_of_group_out_zone(8, 313) and c_all_of_group_out_zone(7, 313) and c_all_of_group_out_zone(9, 313) and c_all_of_group_out_zone(3, 313) )",
+            [15] = "return(c_predicate(getValueDictByKey(\"DictKey_ActionText_487\")) and c_coalition_has_airdrome(1, 10) and c_part_of_group_in_zone(12, 102) or c_part_of_group_in_zone(59, 102) or c_part_of_group_in_zone(60, 102) or c_part_of_group_in_zone(8, 102) or c_part_of_group_in_zone(9, 102) or c_part_of_group_in_zone(68, 102) )",
+            [16] = "return(c_predicate(getValueDictByKey(\"DictKey_ActionText_491\")) and c_predicate(getValueDictByKey(\"DictKey_ActionText_492\")) )",
+            [17] = "return(c_predicate(getValueDictByKey(\"DictKey_ActionText_495\")) and c_all_of_group_out_zone(3, 312) and c_all_of_group_out_zone(12, 312) and c_all_of_group_out_zone(59, 312) and c_all_of_group_out_zone(60, 312) and c_all_of_group_out_zone(8, 312) and c_all_of_group_out_zone(9, 312) )",
         }, -- end of ["conditions"]
         ["custom"] = {
         }, -- end of ["custom"]
@@ -21424,6 +21430,9 @@ mission = {
             [12] = true,
             [13] = true,
             [14] = true,
+            [15] = true,
+            [16] = true,
+            [17] = true,
         }, -- end of ["flag"]
         ["func"] = {
             [3] = "if mission.trig.conditions[3]() then if not mission.trig.flag[3] then mission.trig.actions[3](); mission.trig.flag[3] = true;end; else mission.trig.flag[3] = false; end;",
@@ -21438,6 +21447,9 @@ mission = {
             [12] = "if mission.trig.conditions[12]() then if not mission.trig.flag[12] then mission.trig.actions[12](); mission.trig.flag[12] = true;end; else mission.trig.flag[12] = false; end;",
             [13] = "if mission.trig.conditions[13]() then if not mission.trig.flag[13] then mission.trig.actions[13](); mission.trig.flag[13] = true;end; else mission.trig.flag[13] = false; end;",
             [14] = "if mission.trig.conditions[14]() then if not mission.trig.flag[14] then mission.trig.actions[14](); mission.trig.flag[14] = true;end; else mission.trig.flag[14] = false; end;",
+            [15] = "if mission.trig.conditions[15]() then if not mission.trig.flag[15] then mission.trig.actions[15](); mission.trig.flag[15] = true;end; else mission.trig.flag[15] = false; end;",
+            [16] = "if mission.trig.conditions[16]() then if not mission.trig.flag[16] then mission.trig.actions[16](); mission.trig.flag[16] = true;end; else mission.trig.flag[16] = false; end;",
+            [17] = "if mission.trig.conditions[17]() then if not mission.trig.flag[17] then mission.trig.actions[17](); mission.trig.flag[17] = true;end; else mission.trig.flag[17] = false; end;",
         }, -- end of ["func"]
         ["funcStartup"] = {
             [1] = "if mission.trig.conditions[1]() then mission.trig.actions[1]() end",
@@ -21863,6 +21875,14 @@ mission = {
                     ["group"] = 66,
                     ["predicate"] = "a_deactivate_group",
                 }, -- end of [5]
+                [6] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["group"] = 71,
+                    ["predicate"] = "a_deactivate_group",
+                }, -- end of [6]
             }, -- end of ["actions"]
             ["colorItem"] = "0xff0000ff",
             ["comment"] = "QRA INIT",
@@ -22936,6 +22956,230 @@ mission = {
                 }, -- end of [11]
             }, -- end of ["rules"]
         }, -- end of [14]
+        [15] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_488",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_488",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["coalitionlist"] = "blue",
+                    ["file"] = "ResKey_Action_489",
+                    ["predicate"] = "a_out_sound_s",
+                    ["start_delay"] = 0,
+                }, -- end of [2]
+                [3] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["clearview"] = false,
+                    ["coalitionlist"] = "blue",
+                    ["KeyDict_text"] = "DictKey_ActionText_490",
+                    ["predicate"] = "a_out_text_delay_s",
+                    ["seconds"] = 20,
+                    ["start_delay"] = 0,
+                    ["text"] = "DictKey_ActionText_490",
+                }, -- end of [3]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0xff0000ff",
+            ["comment"] = "RED QRA KHASAB",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["KeyDict_text"] = "DictKey_ActionText_487",
+                    ["predicate"] = "c_predicate",
+                    ["text"] = "DictKey_ActionText_487",
+                    ["zone"] = 207,
+                }, -- end of [1]
+                [2] = {
+                    ["airdromelist"] = 10,
+                    ["coalitionlist"] = 1,
+                    ["predicate"] = "c_coalition_has_airdrome",
+                    ["zone"] = 207,
+                }, -- end of [2]
+                [3] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 12,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 102,
+                }, -- end of [3]
+                [4] = {
+                    ["predicate"] = "or",
+                }, -- end of [4]
+                [5] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 59,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 102,
+                }, -- end of [5]
+                [6] = {
+                    ["predicate"] = "or",
+                }, -- end of [6]
+                [7] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 60,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 102,
+                }, -- end of [7]
+                [8] = {
+                    ["predicate"] = "or",
+                }, -- end of [8]
+                [9] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 8,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 102,
+                }, -- end of [9]
+                [10] = {
+                    ["predicate"] = "or",
+                }, -- end of [10]
+                [11] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 9,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 102,
+                }, -- end of [11]
+                [12] = {
+                    ["predicate"] = "or",
+                }, -- end of [12]
+                [13] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 68,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 102,
+                }, -- end of [13]
+            }, -- end of ["rules"]
+        }, -- end of [15]
+        [16] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_493",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_493",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["clearview"] = false,
+                    ["coalitionlist"] = "blue",
+                    ["KeyDict_text"] = "DictKey_ActionText_494",
+                    ["predicate"] = "a_out_text_delay_s",
+                    ["seconds"] = 20,
+                    ["start_delay"] = 0,
+                    ["text"] = "DictKey_ActionText_494",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0xff0000ff",
+            ["comment"] = "RED QRA KHASAB FINISHED",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["KeyDict_text"] = "DictKey_ActionText_491",
+                    ["predicate"] = "c_predicate",
+                    ["text"] = "DictKey_ActionText_491",
+                    ["zone"] = 207,
+                }, -- end of [1]
+                [2] = {
+                    ["coalitionlist"] = "red",
+                    ["KeyDict_text"] = "DictKey_ActionText_492",
+                    ["predicate"] = "c_predicate",
+                    ["text"] = "DictKey_ActionText_492",
+                    ["zone"] = 207,
+                }, -- end of [2]
+            }, -- end of ["rules"]
+        }, -- end of [16]
+        [17] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_496",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_496",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["group"] = 71,
+                    ["predicate"] = "a_deactivate_group",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0xff0000ff",
+            ["comment"] = "RED QRA KHASAB RELOAD",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["flag"] = 1,
+                    ["KeyDict_text"] = "DictKey_ActionText_495",
+                    ["predicate"] = "c_predicate",
+                    ["text"] = "DictKey_ActionText_495",
+                    ["value"] = 10,
+                    ["zone"] = 207,
+                }, -- end of [1]
+                [2] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 3,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 312,
+                }, -- end of [2]
+                [3] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 12,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 312,
+                }, -- end of [3]
+                [4] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 59,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 312,
+                }, -- end of [4]
+                [5] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 60,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 312,
+                }, -- end of [5]
+                [6] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 8,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 312,
+                }, -- end of [6]
+                [7] = {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 9,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 312,
+                }, -- end of [7]
+            }, -- end of ["rules"]
+        }, -- end of [17]
     }, -- end of ["trigrules"]
     ["version"] = 16,
     ["weather"] = {
