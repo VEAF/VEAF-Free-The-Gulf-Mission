@@ -4,6 +4,18 @@ dictionary =
     ["DictKey_WptName_11"] = "",
     ["DictKey_UnitName_23"] = "Pilot #005",
     ["DictKey_WptName_20"] = "",
+    ["DictKey_ActionText_47"] = "veafRadio.initialize()\
+veafAssets.initialize()\
+veafCasMission.initialize()\
+veafGrass.initialize()\
+veafMove.initialize()\
+veafSpawn.initialize()\
+-- veafCarrierOperations.initialize()\
+-- veafTransportMission.initialize()\
+veafNamedPoints.initialize()\
+veafSecurity.initialize()\
+veafCombatZone.initialize()\
+veafInterpreter.initialize()",
     ["DictKey_sortie_5"] = "",
     ["DictKey_WptName_8"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
