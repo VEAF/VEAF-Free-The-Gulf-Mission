@@ -7,86 +7,10 @@ mission = {
             }, -- end of ["bullseye"]
             ["country"] = {
                 [1] = {
-                    ["id"] = 21,
-                    ["name"] = "Australia",
-                }, -- end of [1]
-                [2] = {
-                    ["id"] = 11,
-                    ["name"] = "Belgium",
-                }, -- end of [2]
-                [3] = {
-                    ["id"] = 8,
-                    ["name"] = "Canada",
-                }, -- end of [3]
-                [4] = {
-                    ["id"] = 28,
-                    ["name"] = "Croatia",
-                }, -- end of [4]
-                [5] = {
-                    ["id"] = 26,
-                    ["name"] = "Czech Republic",
-                }, -- end of [5]
-                [6] = {
-                    ["id"] = 13,
-                    ["name"] = "Denmark",
-                }, -- end of [6]
-                [7] = {
-                    ["id"] = 5,
-                    ["name"] = "France",
-                }, -- end of [7]
-                [8] = {
-                    ["id"] = 16,
-                    ["name"] = "Georgia",
-                }, -- end of [8]
-                [9] = {
-                    ["id"] = 6,
-                    ["name"] = "Germany",
-                }, -- end of [9]
-                [10] = {
-                    ["id"] = 15,
-                    ["name"] = "Israel",
-                }, -- end of [10]
-                [11] = {
-                    ["id"] = 20,
-                    ["name"] = "Italy",
-                }, -- end of [11]
-                [12] = {
-                    ["id"] = 12,
-                    ["name"] = "Norway",
-                }, -- end of [12]
-                [13] = {
-                    ["id"] = 40,
-                    ["name"] = "Poland",
-                }, -- end of [13]
-                [14] = {
-                    ["id"] = 45,
-                    ["name"] = "South Korea",
-                }, -- end of [14]
-                [15] = {
-                    ["id"] = 9,
-                    ["name"] = "Spain",
-                }, -- end of [15]
-                [16] = {
-                    ["id"] = 46,
-                    ["name"] = "Sweden",
-                }, -- end of [16]
-                [17] = {
-                    ["id"] = 10,
-                    ["name"] = "The Netherlands",
-                }, -- end of [17]
-                [18] = {
-                    ["id"] = 3,
-                    ["name"] = "Turkey",
-                }, -- end of [18]
-                [19] = {
-                    ["id"] = 4,
-                    ["name"] = "UK",
-                }, -- end of [19]
-                [20] = {
                     ["id"] = 1,
                     ["name"] = "Ukraine",
-                }, -- end of [20]
-                [21] = {
+                }, -- end of [1]
+                [2] = {
                     ["id"] = 2,
                     ["name"] = "USA",
                     ["plane"] = {
@@ -666,6 +590,82 @@ mission = {
                             }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
+                }, -- end of [2]
+                [3] = {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [3]
+                [4] = {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [4]
+                [5] = {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [5]
+                [6] = {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [6]
+                [7] = {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [7]
+                [8] = {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [8]
+                [9] = {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [9]
+                [10] = {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [10]
+                [11] = {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [11]
+                [12] = {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [12]
+                [13] = {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [13]
+                [14] = {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [14]
+                [15] = {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [15]
+                [16] = {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [16]
+                [17] = {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [17]
+                [18] = {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [18]
+                [19] = {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [19]
+                [20] = {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [20]
+                [21] = {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
                 }, -- end of [21]
             }, -- end of ["country"]
             ["name"] = "blue",
@@ -679,40 +679,40 @@ mission = {
             }, -- end of ["bullseye"]
             ["country"] = {
                 [1] = {
-                    ["id"] = 18,
-                    ["name"] = "Abkhazia",
-                }, -- end of [1]
-                [2] = {
-                    ["id"] = 24,
-                    ["name"] = "Belarus",
-                }, -- end of [2]
-                [3] = {
-                    ["id"] = 27,
-                    ["name"] = "China",
-                }, -- end of [3]
-                [4] = {
-                    ["id"] = 34,
-                    ["name"] = "Iran",
-                }, -- end of [4]
-                [5] = {
-                    ["id"] = 37,
-                    ["name"] = "Kazakhstan",
-                }, -- end of [5]
-                [6] = {
-                    ["id"] = 38,
-                    ["name"] = "North Korea",
-                }, -- end of [6]
-                [7] = {
                     ["id"] = 0,
                     ["name"] = "Russia",
-                }, -- end of [7]
-                [8] = {
-                    ["id"] = 43,
-                    ["name"] = "Serbia",
-                }, -- end of [8]
-                [9] = {
+                }, -- end of [1]
+                [2] = {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [2]
+                [3] = {
                     ["id"] = 19,
                     ["name"] = "South Ossetia",
+                }, -- end of [3]
+                [4] = {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [4]
+                [5] = {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [5]
+                [6] = {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [6]
+                [7] = {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [7]
+                [8] = {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [8]
+                [9] = {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
                 }, -- end of [9]
                 [10] = {
                     ["id"] = 47,

@@ -64,7 +64,7 @@ popd
 rem normalizing the mission files
 echo normalizing the mission files
 pushd node_modules\veaf-mission-creation-tools\scripts\veaf
-"%LUA%" veafMissionNormalizer.lua "%MISSION_PATH% %LUA_SCRIPTS_DEBUG_PARAMETER%
+"%LUA%" veafMissionNormalizer.lua "%MISSION_PATH%" %LUA_SCRIPTS_DEBUG_PARAMETER%
 popd
 
 rem -- cleanup
