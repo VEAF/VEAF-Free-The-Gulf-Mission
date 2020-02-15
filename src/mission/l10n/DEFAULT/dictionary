@@ -1,4 +1,63 @@
 dictionary = {
+    ["DictKey_ActionText_393"] = "qra = {\
+ [\"RED QRA LAR\"] = \"ready\",\
+ [\"RED QRA LAVAN\"] = \"ready\",\
+ [\"RED QRA BANDAR LENGEH\"] = \"ready\",\
+ [\"RED QRA BANDAR HAVADARYA\"] = \"ready\",\
+};\
+",
+    ["DictKey_ActionText_401"] = "mist.respawnGroup(\"RED QRA LAVAN\",true);\
+qra[\"RED QRA LAVAN\"]=\"doing\";\
+",
+    ["DictKey_ActionText_402"] = "return qra[\"RED QRA LAVAN\"]==\"ready\"",
+    ["DictKey_ActionText_404"] = "Overlord: popup group LAVAN north",
+    ["DictKey_ActionText_405"] = "qra[\"RED QRA LAVAN\"]=\"dead\";",
+    ["DictKey_ActionText_406"] = "return qra[\"RED QRA LAVAN\"]==\"doing\"\
+",
+    ["DictKey_ActionText_407"] = "return not Group.getByName(\"RED QRA LAVAN\")\
+",
+    ["DictKey_ActionText_408"] = "Overlord: LAVAN group faded",
+    ["DictKey_ActionText_428"] = "qra[\"RED QRA LAVAN\"]=\"ready\";",
+    ["DictKey_ActionText_429"] = "return qra[\"RED QRA LAVAN\"]==\"dead\"",
+    ["DictKey_ActionText_430"] = "return qra[\"RED QRA BANDAR LENGEH\"]==\"ready\"",
+    ["DictKey_ActionText_431"] = "qra[\"RED QRA BANDAR LENGEH\"]=\"doing\";\
+mist.respawnGroup(\"RED QRA BANDAR LENGEH\",true);\
+",
+    ["DictKey_ActionText_433"] = "Overlord: popup group BANDAR LENGEH north",
+    ["DictKey_ActionText_434"] = "return qra[\"RED QRA BANDAR LENGEH\"]==\"doing\"\
+",
+    ["DictKey_ActionText_435"] = "return not Group.getByName(\"RED QRA BANDAR LENGEH\")\
+",
+    ["DictKey_ActionText_436"] = "qra[\"RED QRA BANDAR LENGEH\"]=\"dead\";",
+    ["DictKey_ActionText_437"] = "Overlord: LAVAN group faded",
+    ["DictKey_ActionText_438"] = "return qra[\"RED QRA BANDAR LENGEH\"]==\"dead\"",
+    ["DictKey_ActionText_439"] = "qra[\"RED QRA BANDAR LENGEH\"]=\"ready\";",
+    ["DictKey_ActionText_440"] = "return qra[\"RED QRA LAR\"]==\"ready\"",
+    ["DictKey_ActionText_441"] = "qra[\"RED QRA LAR\"]=\"doing\";\
+mist.respawnGroup(\"RED QRA LAR\",true);\
+",
+    ["DictKey_ActionText_443"] = "Overlord: popup group LAR north",
+    ["DictKey_ActionText_444"] = "return qra[\"RED QRA LAR\"]==\"doing\"\
+",
+    ["DictKey_ActionText_445"] = "return not Group.getByName(\"RED QRA LAR\")\
+",
+    ["DictKey_ActionText_446"] = "qra[\"RED QRA LAR\"]=\"dead\";",
+    ["DictKey_ActionText_447"] = "Overlord: LAR group faded",
+    ["DictKey_ActionText_448"] = "return qra[\"RED QRA LAR\"]==\"dead\"",
+    ["DictKey_ActionText_449"] = "qra[\"RED QRA LAR\"]=\"ready\";",
+    ["DictKey_ActionText_450"] = "return qra[\"RED QRA HAVADARYA\"]==\"ready\"",
+    ["DictKey_ActionText_451"] = "qra[\"RED QRA HAVADARYA\"]=\"doing\";\
+mist.respawnGroup(\"RED QRA HAVADARYA\",true);\
+",
+    ["DictKey_ActionText_453"] = "Overlord: popup group HAVADARYA north",
+    ["DictKey_ActionText_454"] = "return qra[\"RED QRA HAVADARYA\"]==\"doing\"\
+",
+    ["DictKey_ActionText_455"] = "return not Group.getByName(\"RED QRA HAVADARYA\")\
+",
+    ["DictKey_ActionText_456"] = "qra[\"RED QRA HAVADARYA\"]=\"dead\";",
+    ["DictKey_ActionText_457"] = "Overlord: HAVADARYA group faded",
+    ["DictKey_ActionText_458"] = "return qra[\"RED QRA HAVADARYA\"]==\"dead\"",
+    ["DictKey_ActionText_459"] = "qra[\"RED QRA HAVADARYA\"]=\"ready\";",
     ["DictKey_ActionText_47"] = "veafRadio.initialize()\
 veafAssets.initialize()\
 veafCasMission.initialize()\
@@ -11,6 +70,7 @@ veafNamedPoints.initialize()\
 veafSecurity.initialize()\
 veafCombatZone.initialize()\
 veafInterpreter.initialize()",
+    ["DictKey_ActionText_480"] = "Overlord: new units are orbiting on north of LAVAN",
     ["DictKey_descriptionBlueTask_3"] = "free RED airports\
 free the gulf\
 \
@@ -77,6 +137,15 @@ SHELL KC135 16Y/SHL FL220 V136\
     ["DictKey_GroupName_357"] = "Al Minhad - M2000-C",
     ["DictKey_GroupName_373"] = "",
     ["DictKey_GroupName_377"] = "Ras Al Khaimah - C-101CC",
+    ["DictKey_GroupName_394"] = "RED QRA LAVAN",
+    ["DictKey_GroupName_409"] = "RED QRA LAR",
+    ["DictKey_GroupName_415"] = "RED QRA HAVADARYA",
+    ["DictKey_GroupName_422"] = "RED QRA BANDAR LENGEH",
+    ["DictKey_GroupName_460"] = "TEST LAVAN",
+    ["DictKey_GroupName_465"] = "TEST HAVADARYA",
+    ["DictKey_GroupName_470"] = "TEST BANDAR LENGEH",
+    ["DictKey_GroupName_475"] = "TEST BANDAR LENGEH",
+    ["DictKey_GroupName_481"] = "RED QRA HAVADARYA #001",
     ["DictKey_GroupName_50"] = "Al Minhad - AV-8B",
     ["DictKey_GroupName_6"] = "New Airplane Group",
     ["DictKey_GroupName_65"] = "Stennis Group",
@@ -175,6 +244,22 @@ SHELL KC135 16Y/SHL FL220 V136\
     ["DictKey_UnitName_379"] = "Pilot #053",
     ["DictKey_UnitName_380"] = "Pilot #054",
     ["DictKey_UnitName_381"] = "Pilot #055",
+    ["DictKey_UnitName_395"] = "Pilot #056",
+    ["DictKey_UnitName_397"] = "",
+    ["DictKey_UnitName_398"] = "Pilot #057",
+    ["DictKey_UnitName_410"] = "Pilot #058",
+    ["DictKey_UnitName_411"] = "Pilot #059",
+    ["DictKey_UnitName_416"] = "Pilot #060",
+    ["DictKey_UnitName_417"] = "Pilot #059",
+    ["DictKey_UnitName_421"] = "Pilot #061",
+    ["DictKey_UnitName_423"] = "Pilot #062",
+    ["DictKey_UnitName_424"] = "Pilot #063",
+    ["DictKey_UnitName_461"] = "Pilot #064",
+    ["DictKey_UnitName_466"] = "Pilot #065",
+    ["DictKey_UnitName_471"] = "Pilot #065",
+    ["DictKey_UnitName_476"] = "Pilot #066",
+    ["DictKey_UnitName_482"] = "Pilot #067",
+    ["DictKey_UnitName_483"] = "Pilot #068",
     ["DictKey_UnitName_51"] = "Pilot #001",
     ["DictKey_UnitName_62"] = "Pilot #006",
     ["DictKey_UnitName_63"] = "Pilot #007",
@@ -357,6 +442,33 @@ SHELL KC135 16Y/SHL FL220 V136\
     ["DictKey_WptName_390"] = "",
     ["DictKey_WptName_391"] = "",
     ["DictKey_WptName_392"] = "",
+    ["DictKey_WptName_396"] = "",
+    ["DictKey_WptName_399"] = "",
+    ["DictKey_WptName_400"] = "",
+    ["DictKey_WptName_412"] = "",
+    ["DictKey_WptName_413"] = "",
+    ["DictKey_WptName_414"] = "",
+    ["DictKey_WptName_418"] = "",
+    ["DictKey_WptName_419"] = "",
+    ["DictKey_WptName_420"] = "",
+    ["DictKey_WptName_425"] = "",
+    ["DictKey_WptName_426"] = "",
+    ["DictKey_WptName_427"] = "",
+    ["DictKey_WptName_462"] = "",
+    ["DictKey_WptName_463"] = "",
+    ["DictKey_WptName_464"] = "",
+    ["DictKey_WptName_467"] = "",
+    ["DictKey_WptName_468"] = "",
+    ["DictKey_WptName_469"] = "",
+    ["DictKey_WptName_472"] = "",
+    ["DictKey_WptName_473"] = "",
+    ["DictKey_WptName_474"] = "",
+    ["DictKey_WptName_477"] = "",
+    ["DictKey_WptName_478"] = "",
+    ["DictKey_WptName_479"] = "",
+    ["DictKey_WptName_484"] = "",
+    ["DictKey_WptName_485"] = "",
+    ["DictKey_WptName_486"] = "",
     ["DictKey_WptName_52"] = "",
     ["DictKey_WptName_53"] = "",
     ["DictKey_WptName_54"] = "",
