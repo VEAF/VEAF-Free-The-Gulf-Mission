@@ -8494,7 +8494,7 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
-                                        ["frequency"] = 127500000,
+                                        ["frequency"] = 304000000,
                                         ["heading"] = 0.7679448708775,
                                         ["modulation"] = 0,
                                         ["name"] = "DictKey_UnitName_71",
@@ -15217,7 +15217,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 23279,
+    ["currentKey"] = 24483,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 6,
@@ -21504,9 +21504,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -20797.089696913,
-        ["centerY"] = -181710.26640807,
-        ["zoom"] = 1189180.7552378,
+        ["centerX"] = -93441.275396389,
+        ["centerY"] = -180141.93218146,
+        ["zoom"] = 3204.7396156588,
     }, -- end of ["map"]
     ["maxDictId"] = 502,
     ["pictureFileNameB"] = {
