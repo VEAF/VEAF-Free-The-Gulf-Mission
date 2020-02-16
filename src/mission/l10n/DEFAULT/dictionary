@@ -65,7 +65,7 @@ veafCasMission.initialize()\
 veafGrass.initialize()\
 veafMove.initialize()\
 veafSpawn.initialize()\
--- veafCarrierOperations.initialize()\
+veafCarrierOperations.initialize()\
 -- veafTransportMission.initialize()\
 veafNamedPoints.initialize()\
 veafSecurity.initialize()\

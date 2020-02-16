@@ -86,9 +86,6 @@ veafNamedPoints.Points = {
 		    { name="09", hdg=79, ils="111.50"},
  	     }}},
 
-    -- airbases in Georgia
---    {name="AIRBASE Kobuleti",point={x=-318000,y=0,z=636620, atc=true, tower="133.00", tacan="67X KBL"
---        , runways={ {name="07", hdg=69, ils="111.50"}}}},
 }
 
 veafNamedPoints.logInfo("Loading configuration")

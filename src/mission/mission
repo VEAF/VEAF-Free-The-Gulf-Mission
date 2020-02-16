@@ -8127,6 +8127,7 @@ mission = {
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_497",
+                                ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -15216,7 +15217,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 22680,
+    ["currentKey"] = 23279,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 6,

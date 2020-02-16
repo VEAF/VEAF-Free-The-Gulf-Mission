@@ -1,9 +1,11 @@
-# VEAF demonstration mission
+# VEAF Free The Gulf Mission
 
 ## Abstract
 
-This is a barebones mission to demonstrate the [VEAF Mission Creation Tools framework](https://github.com/VEAF/VEAF-Mission-Creation-Tools)
+This is Work in progress mission, based on [VEAF Mission Creation Tools framework](https://github.com/VEAF/VEAF-Mission-Creation-Tools)
 Please read the documentation for further information on the concept.
+
+![sitac](https://i.imgur.com/NPaQup5.png)
 
 TODO *Link to the documentation - in progress*
 
