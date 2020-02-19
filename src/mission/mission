@@ -12315,7 +12315,7 @@ mission = {
                                     ["points"] = {
                                         [1] = {
                                             ["action"] = "Off Road",
-                                            ["alt"] = 36,
+                                            ["alt"] = 60,
                                             ["alt_type"] = "BARO",
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
@@ -12331,8 +12331,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -2248.0823535423,
-                                            ["y"] = -1444.2082624092,
+                                            ["x"] = -1897.2271496902,
+                                            ["y"] = -779.10963503801,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] = {
@@ -12365,13 +12365,13 @@ mission = {
                                         }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 47,
-                                        ["x"] = -2248.0823535423,
-                                        ["y"] = -1444.2082624092,
+                                        ["x"] = -1897.2271496902,
+                                        ["y"] = -779.10963503801,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = -2248.0823535423,
-                                ["y"] = -1444.2082624092,
+                                ["x"] = -1897.2271496902,
+                                ["y"] = -779.10963503801,
                             }, -- end of [1]
                             [2] = {
                                 ["groupId"] = 24,
@@ -15217,7 +15217,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 24483,
+    ["currentKey"] = 25682,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 6,
@@ -21504,9 +21504,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -93441.275396389,
-        ["centerY"] = -180141.93218146,
-        ["zoom"] = 3204.7396156588,
+        ["centerX"] = -50109.852224905,
+        ["centerY"] = -30492.26021212,
+        ["zoom"] = 1293529.7768276,
     }, -- end of ["map"]
     ["maxDictId"] = 502,
     ["pictureFileNameB"] = {
@@ -21696,8 +21696,8 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 60960,
-                ["x"] = 149250.73602856,
-                ["y"] = 965.14956962376,
+                ["x"] = 130863.02292364,
+                ["y"] = 3868.4726914538,
                 ["zoneId"] = 105,
             }, -- end of [4]
             [5] = {
@@ -21743,7 +21743,7 @@ mission = {
                 ["name"] = "Lar Exit",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 182880,
+                ["radius"] = 121920,
                 ["x"] = 204105.04559063,
                 ["y"] = -177670.94963659,
                 ["zoneId"] = 310,
