@@ -18,14 +18,21 @@
 if veafCombatZone then 
 	veafCombatZone.logInfo("Loading configuration")
 
---	veafCombatZone.AddZone(
---		VeafCombatZone.new()
---			:setMissionEditorZoneName("combatZone_CrossKobuleti")
---			:setFriendlyName("Cross Kobuleti")
---			:setBriefing("This is a simple mission\n" ..
---						 "You must destroy the comm antenna before 11:30 local time\n" ..
---						 "The other ennemy units are secondary targets\n")
---	)
+-- # examples:
+-- unit name: #command="_spawn combatgroup, size 10, spacing 1, defense 1, armor 1"
+-- unit name: #command="_spawn armorgroup, size 15, hdg 180"
+-- unit name: #command="_spawn infantrygroup, size 25, armor 1, defense 2" #spawnChance=50
+-- unit name: #command="_spawn transportgroup, size 25, defense 1" #spawnRadius=2500
+
+	veafCombatZone.AddZone(
+		VeafCombatZone.new()
+			:setMissionEditorZoneName("combatZone_Salhad")
+			:setFriendlyName("DP26 Salhad")
+			:setBriefing("Free Salhad\n" ..
+						 "Red forces has captured the city of Salhad\n" ..
+						 "Scouts are reporting armored vehicles and air defense\n")
+	)
+
 --	veafCombatZone.AddZone(
 --		VeafCombatZone.new()
 --			:setMissionEditorZoneName("combatZone_Batumi")
