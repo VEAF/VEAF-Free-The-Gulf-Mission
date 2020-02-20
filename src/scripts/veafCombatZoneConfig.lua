@@ -23,6 +23,8 @@ if veafCombatZone then
 -- unit name: #command="_spawn armorgroup, size 15, hdg 180"
 -- unit name: #command="_spawn infantrygroup, size 25, armor 1, defense 2" #spawnChance=50
 -- unit name: #command="_spawn transportgroup, size 25, defense 1" #spawnRadius=2500
+-- unit name: #spawnRadius=600 #spawnChance=50
+-- unit name: #command="_spawn samgroup, side red, defense 3"]
 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
