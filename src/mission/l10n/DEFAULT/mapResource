@@ -28,4 +28,5 @@ mapResource = {
     ["ResKey_Action_48"] = "veafSecurity.lua",
     ["ResKey_Action_489"] = "Radar Contact Closing Fast.ogg",
     ["ResKey_Action_49"] = "veafUnits.lua",
+    ["ResKey_Action_578"] = "veafCaptureConfig.lua",
 } -- end of mapResource

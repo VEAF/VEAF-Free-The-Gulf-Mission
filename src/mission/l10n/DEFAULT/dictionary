@@ -69,7 +69,9 @@ veafCarrierOperations.initialize()\
 veafNamedPoints.initialize()\
 veafSecurity.initialize()\
 veafCombatZone.initialize()\
-veafInterpreter.initialize()",
+veafInterpreter.initialize()\
+veafCapture.initialize()\
+",
     ["DictKey_ActionText_480"] = "Overlord: new units are orbiting on north of LAVAN",
     ["DictKey_ActionText_487"] = "return qra[\"RED QRA KHASAB\"]==\"ready\"",
     ["DictKey_ActionText_488"] = "qra[\"RED QRA KHASAB\"]=\"doing\";\
@@ -84,6 +86,7 @@ mist.respawnGroup(\"RED QRA KHASAB\",true);\
     ["DictKey_ActionText_494"] = "Overlord: KHASAB group faded",
     ["DictKey_ActionText_495"] = "return qra[\"RED QRA KHASAB\"]==\"dead\"",
     ["DictKey_ActionText_496"] = "qra[\"RED QRA KHASAB\"]=\"ready\";",
+    ["DictKey_ActionText_579"] = "veafCapture.onAirportCapture()",
     ["DictKey_descriptionBlueTask_3"] = "free RED airports\
 free the gulf\
 \
