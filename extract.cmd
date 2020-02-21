@@ -22,7 +22,7 @@ echo current value is "%LUA_SCRIPTS_DEBUG_PARAMETER%"
 echo ----------------------------------------
 echo SEVENZIP (a string) points to the 7za executable
 echo defaults "7za", so it needs to be in the path
-IF ["%SEVENZIP%"] == [] GOTO DefineDefaultSEVENZIP
+IF [%SEVENZIP%] == [] GOTO DefineDefaultSEVENZIP
 goto DontDefineDefaultSEVENZIP
 :DefineDefaultSEVENZIP
 set SEVENZIP=7za
@@ -68,7 +68,7 @@ pushd node_modules\veaf-mission-creation-tools\scripts\veaf
 popd
 
 rem -- cleanup
-del "*%MISSION_NAME%*.miz"
+del *%MISSION_NAME%*.miz
 
 echo.
 echo ----------------------------------------
