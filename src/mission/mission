@@ -4582,14 +4582,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -49004.426856288,
-                                            ["y"] = -269656.39099817,
+                                            ["x"] = -48127.412852304,
+                                            ["y"] = -261164.60790202,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 160.26897224053,
+                                            ["ETA"] = 146.71333631619,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_134",
@@ -4607,14 +4607,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -46186.843248305,
-                                            ["y"] = -240968.26698962,
+                                            ["x"] = -48291.310459079,
+                                            ["y"] = -239857.91902127,
                                         }, -- end of [2]
                                         [3] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 471.44834689292,
+                                            ["ETA"] = 504.85900290724,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_135",
@@ -4647,8 +4647,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -6228.3848078204,
-                                            ["y"] = -201778.24044222,
+                                            ["x"] = -33212.730635777,
+                                            ["y"] = -180363.08776194,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -4668,7 +4668,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Arco11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.4728960190564,
+                                        ["heading"] = 1.5784884827705,
                                         ["livery_id"] = "100th ARW",
                                         ["name"] = "DictKey_UnitName_132",
                                         ["onboard_num"] = "022",
@@ -4680,17 +4680,17 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.4728960190564,
+                                        ["psi"] = -1.5784884827705,
                                         ["skill"] = "High",
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "KC135MPRS",
                                         ["unitId"] = 31,
-                                        ["x"] = -49004.426856288,
-                                        ["y"] = -269656.39099817,
+                                        ["x"] = -48127.412852304,
+                                        ["y"] = -261164.60790202,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -49004.426856288,
-                                ["y"] = -269656.39099817,
+                                ["x"] = -48127.412852304,
+                                ["y"] = -261164.60790202,
                             }, -- end of [6]
                             [7] = {
                                 ["communication"] = true,
@@ -4767,14 +4767,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -65327.40707247,
-                                            ["y"] = -113188.51379398,
+                                            ["x"] = -76317.801217606,
+                                            ["y"] = -125621.28709908,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 115.77884359275,
+                                            ["ETA"] = 57.45937530131,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_139",
@@ -4792,14 +4792,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -51343.142869795,
-                                            ["y"] = -97758.543850238,
+                                            ["x"] = -62222.607034955,
+                                            ["y"] = -103331.21257767,
                                         }, -- end of [2]
                                         [3] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 502.75777114086,
+                                            ["ETA"] = 448.78627256241,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_140",
@@ -4832,8 +4832,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 5057.5604739239,
-                                            ["y"] = -56972.969385349,
+                                            ["x"] = -6661.3183382238,
+                                            ["y"] = -60062.24438907,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -4853,7 +4853,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Texaco11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.83450851191885,
+                                        ["heading"] = 1.0069269680142,
                                         ["livery_id"] = "100th ARW",
                                         ["name"] = "DictKey_UnitName_137",
                                         ["onboard_num"] = "022",
@@ -4865,17 +4865,17 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.83450851191885,
+                                        ["psi"] = -1.0069269680142,
                                         ["skill"] = "High",
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "KC135MPRS",
                                         ["unitId"] = 32,
-                                        ["x"] = -65327.40707247,
-                                        ["y"] = -113188.51379398,
+                                        ["x"] = -76317.801217606,
+                                        ["y"] = -125621.28709908,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -65327.40707247,
-                                ["y"] = -113188.51379398,
+                                ["x"] = -76317.801217606,
+                                ["y"] = -125621.28709908,
                             }, -- end of [7]
                             [8] = {
                                 ["communication"] = true,
@@ -5806,14 +5806,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -53358.874250443,
-                                            ["y"] = -261972.07206731,
+                                            ["x"] = -54191.624302979,
+                                            ["y"] = -279521.13986082,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6705.6,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 196.10029304496,
+                                            ["ETA"] = 112.24374597711,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_233",
@@ -5831,14 +5831,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -50797.434606822,
-                                            ["y"] = -235589.24373802,
+                                            ["x"] = -54355.521909754,
+                                            ["y"] = -239202.32859417,
                                         }, -- end of [2]
                                         [3] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6705.6,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 441.24449065308,
+                                            ["ETA"] = 395.6143733026,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_234",
@@ -5871,8 +5871,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -11607.408059424,
-                                            ["y"] = -198192.22494115,
+                                            ["x"] = -38129.658839028,
+                                            ["y"] = -178724.11169419,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -5892,7 +5892,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Shell11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.4740122816874,
+                                        ["heading"] = 1.5748613450545,
                                         ["livery_id"] = "Standard USAF",
                                         ["name"] = "DictKey_UnitName_231",
                                         ["onboard_num"] = "022",
@@ -5904,17 +5904,17 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.4740122816874,
+                                        ["psi"] = -1.5748613450545,
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "KC-135",
                                         ["unitId"] = 61,
-                                        ["x"] = -53358.874250443,
-                                        ["y"] = -261972.07206731,
+                                        ["x"] = -54191.624302979,
+                                        ["y"] = -279521.13986082,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -53358.874250443,
-                                ["y"] = -261972.07206731,
+                                ["x"] = -54191.624302979,
+                                ["y"] = -279521.13986082,
                             }, -- end of [9]
                             [10] = {
                                 ["communication"] = true,
@@ -17728,7 +17728,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 37595,
+    ["currentKey"] = 39713,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 6,
@@ -24015,9 +24015,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -10267.058514433,
-        ["centerY"] = -23729.703509585,
-        ["zoom"] = 276818.16175029,
+        ["centerX"] = -21657.949358138,
+        ["centerY"] = -97594.796340549,
+        ["zoom"] = 573641.62371256,
     }, -- end of ["map"]
     ["maxDictId"] = 579,
     ["pictureFileNameB"] = {
