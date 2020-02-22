@@ -17728,7 +17728,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 36853,
+    ["currentKey"] = 37595,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 6,
@@ -24015,9 +24015,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -136619.91104874,
-        ["centerY"] = -74595.190276601,
-        ["zoom"] = 264565.31633496,
+        ["centerX"] = -10267.058514433,
+        ["centerY"] = -23729.703509585,
+        ["zoom"] = 276818.16175029,
     }, -- end of ["map"]
     ["maxDictId"] = 579,
     ["pictureFileNameB"] = {
@@ -24056,7 +24056,7 @@ mission = {
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 20700,
+    ["start_time"] = 49000,
     ["theatre"] = "PersianGulf",
     ["trig"] = {
         ["actions"] = {
@@ -25921,42 +25921,55 @@ mission = {
     ["weather"] = {
         ["atmosphere_type"] = 0,
         ["clouds"] = {
-            ["base"] = 300,
-            ["density"] = 0,
+            ["base"] = 3200,
+            ["density"] = 5,
             ["iprecptns"] = 0,
-            ["thickness"] = 200,
+            ["thickness"] = 830,
         }, -- end of ["clouds"]
         ["cyclones"] = {
+            [1] = {
+                ["centerX"] = -902504.06819404,
+                ["centerZ"] = 1084702.1808043,
+                ["ellipticity"] = 0.92741635833369,
+                ["pressure_excess"] = -1237,
+                ["pressure_spread"] = 984553.65307475,
+                ["rotation"] = -0.14119397163551,
+            }, -- end of [1]
         }, -- end of ["cyclones"]
         ["dust_density"] = 0,
         ["enable_dust"] = false,
         ["enable_fog"] = false,
         ["fog"] = {
-            ["thickness"] = 0,
-            ["visibility"] = 0,
+            ["thickness"] = 200,
+            ["visibility"] = 2800,
         }, -- end of ["fog"]
-        ["groundTurbulence"] = 0,
-        ["name"] = "Winter, clean sky",
-        ["qnh"] = 762.508,
+        ["groundTurbulence"] = 7.62,
+        ["name"] = "Spring, Thunderstorm",
+        ["name_cn"] = "春季 暴风雨",
+        ["name_de"] = "Frühling, Gewitter",
+        ["name_es"] = "Primavera. Tormenta",
+        ["name_fr"] = "Printemps, orages",
+        ["name_ru"] = "Весна. Гроза",
+        ["qnh"] = 753.872,
         ["season"] = {
-            ["temperature"] = 29,
+            ["temperature"] = 18,
         }, -- end of ["season"]
-        ["type_weather"] = 0,
+        ["type_weather"] = 2,
         ["visibility"] = {
             ["distance"] = 80000,
         }, -- end of ["visibility"]
         ["wind"] = {
             ["at2000"] = {
-                ["dir"] = 297,
-                ["speed"] = 2.0616,
+                ["dir"] = 214,
+                ["speed"] = 7.731,
             }, -- end of ["at2000"]
             ["at8000"] = {
-                ["dir"] = 342,
-                ["speed"] = 4.1232,
+                ["dir"] = 105,
+                ["speed"] = 12.885,
             }, -- end of ["at8000"]
             ["atGround"] = {
-                ["dir"] = 229,
-                ["speed"] = 0.5154,
+                ["dir"] = 143,
+                ["speed"] = 6.1848,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]
     }, -- end of ["weather"]
