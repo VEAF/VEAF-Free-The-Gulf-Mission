@@ -6,7 +6,14 @@ dictionary = {
  [\"RED QRA HAVADARYA\"] = \"ready\",\
  [\"RED QRA KHASAB\"] = \"ready\",\
 };\
-",
+\
+qraBlueInZone= {\
+[\"RED QRA LAR\"] = false,\
+ [\"RED QRA LAVAN\"] = false,\
+ [\"RED QRA BANDAR LENGEH\"] = false,\
+ [\"RED QRA HAVADARYA\"] = false,\
+ [\"RED QRA KHASAB\"] = false,\
+}",
     ["DictKey_ActionText_401"] = "mist.respawnGroup(\"RED QRA LAVAN\",true);\
 qra[\"RED QRA LAVAN\"]=\"doing\";\
 ",
@@ -72,7 +79,7 @@ veafCombatZone.initialize()\
 veafInterpreter.initialize()\
 veafCapture.initialize()\
 ",
-    ["DictKey_ActionText_480"] = "Overlord: new units are orbiting on north of LAVAN",
+    ["DictKey_ActionText_480"] = "Overlord: new units are ready on north of LAVAN",
     ["DictKey_ActionText_487"] = "return qra[\"RED QRA KHASAB\"]==\"ready\"",
     ["DictKey_ActionText_488"] = "qra[\"RED QRA KHASAB\"]=\"doing\";\
 mist.respawnGroup(\"RED QRA KHASAB\",true);\
@@ -87,6 +94,55 @@ mist.respawnGroup(\"RED QRA KHASAB\",true);\
     ["DictKey_ActionText_495"] = "return qra[\"RED QRA KHASAB\"]==\"dead\"",
     ["DictKey_ActionText_496"] = "qra[\"RED QRA KHASAB\"]=\"ready\";",
     ["DictKey_ActionText_579"] = "veafCapture.onAirportCapture()",
+    ["DictKey_ActionText_618"] = "",
+    ["DictKey_ActionText_619"] = "qraBlueInZone[\"RED QRA LAVAN\"]=true;\
+",
+    ["DictKey_ActionText_621"] = "Blue pushing to LAVAN",
+    ["DictKey_ActionText_622"] = "return qraBlueInZone[\"RED QRA LAVAN\"]",
+    ["DictKey_ActionText_623"] = "qraBlueInZone[\"RED QRA LAVAN\"]=false;\
+",
+    ["DictKey_ActionText_624"] = "Blue exiting LAVAN zone",
+    ["DictKey_ActionText_625"] = "return qraBlueInZone[\"RED QRA LAVAN\"]==false",
+    ["DictKey_ActionText_626"] = "",
+    ["DictKey_ActionText_627"] = "",
+    ["DictKey_ActionText_628"] = "qraBlueInZone[\"RED QRA BANDAR LENGEH\"]=true;\
+",
+    ["DictKey_ActionText_629"] = "Blue pushing to BANDAR LENGEH",
+    ["DictKey_ActionText_630"] = "qraBlueInZone[\"RED QRA BANDAR LENGEH\"]=false;\
+",
+    ["DictKey_ActionText_631"] = "Blue exiting BANDAR LENGEH zone",
+    ["DictKey_ActionText_632"] = "return qraBlueInZone[\"RED QRA BANDAR LENGEH\"]==\"ready\"",
+    ["DictKey_ActionText_633"] = "return qraBlueInZone[\"RED QRA BANDAR LENGEH\"]==false",
+    ["DictKey_ActionText_634"] = "qraBlueInZone[\"RED QRA LAR\"]=true;\
+",
+    ["DictKey_ActionText_635"] = "Blue pushing to LAR",
+    ["DictKey_ActionText_636"] = "return qraBlueInZone[\"RED QRA LAR\"]",
+    ["DictKey_ActionText_637"] = "return qraBlueInZone[\"RED QRA LAR\"]==false",
+    ["DictKey_ActionText_638"] = "Overlord: new units are ready on north of BANDAR LENGEH",
+    ["DictKey_ActionText_639"] = "",
+    ["DictKey_ActionText_640"] = "",
+    ["DictKey_ActionText_641"] = "qraBlueInZone[\"RED QRA BANDAR LENGEH\"]=false;\
+",
+    ["DictKey_ActionText_642"] = "Blue exiting BANDAR LENGEH zone",
+    ["DictKey_ActionText_643"] = "Overlord: new units are orbiting on north of LAR",
+    ["DictKey_ActionText_644"] = "qraBlueInZone[\"RED QRA HAVADARYA\"]=true;\
+",
+    ["DictKey_ActionText_645"] = "Blue pushing to HAVADARYA",
+    ["DictKey_ActionText_646"] = "qraBlueInZone[\"RED QRA BANDAR LENGEH\"]=false;\
+",
+    ["DictKey_ActionText_647"] = "Blue exiting HAVADARYA zone",
+    ["DictKey_ActionText_648"] = "return qraBlueInZone[\"RED QRA HAVADARYA\"]",
+    ["DictKey_ActionText_649"] = "return qraBlueInZone[\"RED QRA HAVADARYA\"]==false",
+    ["DictKey_ActionText_650"] = "Overlord: new units are orbiting on north of HAVADARYA",
+    ["DictKey_ActionText_651"] = "qraBlueInZone[\"RED QRA KHASAB\"]=true;\
+",
+    ["DictKey_ActionText_652"] = "Blue pushing to KHASAB",
+    ["DictKey_ActionText_653"] = "qraBlueInZone[\"RED QRA KHASAB\"]=false;\
+",
+    ["DictKey_ActionText_654"] = "Blue exiting KHASAB zone",
+    ["DictKey_ActionText_655"] = "return qraBlueInZone[\"RED QRA KHASAB\"]",
+    ["DictKey_ActionText_656"] = "return qraBlueInZone[\"RED QRA KHASAB\"]==false",
+    ["DictKey_ActionText_657"] = "Overlord: new units are orbiting on north of KHASAB",
     ["DictKey_descriptionBlueTask_3"] = "free RED airports\
 free the gulf\
 \
