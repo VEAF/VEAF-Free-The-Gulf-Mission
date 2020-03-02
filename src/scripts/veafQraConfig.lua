@@ -171,4 +171,12 @@ veafQra.groups={
 	  status = "ready",
 	  inZone = false,
     },
+  ["Khasab"] =
+    {   
+      zone="Khasab",
+	  group = "RED QRA Khasab",
+	  airbase = "Khasab",
+	  status = "ready",
+	  inZone = false,
+    },
 }
