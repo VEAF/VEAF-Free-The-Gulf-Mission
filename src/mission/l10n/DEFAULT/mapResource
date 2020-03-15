@@ -14,7 +14,7 @@ mapResource = {
     ["ResKey_Action_37"] = "dcsUnits.lua",
     ["ResKey_Action_38"] = "veafCarrierOperations.lua",
     ["ResKey_Action_39"] = "veafNamedPoints.lua",
-    ["ResKey_Action_40"] = "veafInterpreter.lua",
+    ["ResKey_Action_40"] = "veafShortcuts.lua",
     ["ResKey_Action_403"] = "Radar Contact Closing Fast.ogg",
     ["ResKey_Action_41"] = "veafCombatZone.lua",
     ["ResKey_Action_42"] = "veafAutogftConfig.lua",
@@ -29,4 +29,5 @@ mapResource = {
     ["ResKey_Action_489"] = "Radar Contact Closing Fast.ogg",
     ["ResKey_Action_49"] = "veafUnits.lua",
     ["ResKey_Action_578"] = "veafCaptureConfig.lua",
+    ["ResKey_Action_658"] = "veafInterpreter.lua",
 } -- end of mapResource

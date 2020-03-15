@@ -19341,7 +19341,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 50475,
+    ["currentKey"] = 51242,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 6,
@@ -25632,7 +25632,7 @@ mission = {
         ["centerY"] = -73702.311529299,
         ["zoom"] = 1000123.6770916,
     }, -- end of ["map"]
-    ["maxDictId"] = 657,
+    ["maxDictId"] = 658,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
@@ -25669,11 +25669,11 @@ mission = {
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 49000,
+    ["start_time"] = 61200,
     ["theatre"] = "PersianGulf",
     ["trig"] = {
         ["actions"] = {
-            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_25\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_26\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_27\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_28\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_29\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_30\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_31\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_32\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_33\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_34\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_35\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_36\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_37\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_49\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_38\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_39\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_40\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_41\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_42\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_43\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_48\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_44\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_45\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_46\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_578\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_47\"));",
+            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_25\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_26\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_27\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_28\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_29\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_30\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_31\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_32\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_33\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_34\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_35\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_36\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_37\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_49\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_38\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_39\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_658\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_41\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_40\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_42\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_43\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_48\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_44\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_45\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_46\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_578\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_47\"));",
             [2] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_393\"));a_deactivate_group(63);a_deactivate_group(64);a_deactivate_group(65);a_deactivate_group(66);a_deactivate_group(71);",
             [3] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_619\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_621\"), 20, false, 0);",
             [4] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_623\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_624\"), 20, false, 0);",
@@ -26119,7 +26119,7 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_40",
+                    ["file"] = "ResKey_Action_658",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [17]
                 [18] = {
@@ -26135,7 +26135,7 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_42",
+                    ["file"] = "ResKey_Action_40",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [19]
                 [20] = {
@@ -26143,7 +26143,7 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_43",
+                    ["file"] = "ResKey_Action_42",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [20]
                 [21] = {
@@ -26151,7 +26151,7 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_48",
+                    ["file"] = "ResKey_Action_43",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [21]
                 [22] = {
@@ -26159,7 +26159,7 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_44",
+                    ["file"] = "ResKey_Action_48",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [22]
                 [23] = {
@@ -26167,7 +26167,7 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_45",
+                    ["file"] = "ResKey_Action_44",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [23]
                 [24] = {
@@ -26175,7 +26175,7 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_46",
+                    ["file"] = "ResKey_Action_45",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [24]
                 [25] = {
@@ -26183,7 +26183,7 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_578",
+                    ["file"] = "ResKey_Action_46",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [25]
                 [26] = {
@@ -26191,10 +26191,18 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
+                    ["file"] = "ResKey_Action_578",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [26]
+                [27] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
                     ["KeyDict_text"] = "DictKey_ActionText_47",
                     ["predicate"] = "a_do_script",
                     ["text"] = "DictKey_ActionText_47",
-                }, -- end of [26]
+                }, -- end of [27]
             }, -- end of ["actions"]
             ["colorItem"] = "0x00ff00ff",
             ["comment"] = "Load scripts",
@@ -28252,8 +28260,8 @@ mission = {
         ["atmosphere_type"] = 0,
         ["clouds"] = {
             ["base"] = 3200,
-            ["density"] = 5,
-            ["iprecptns"] = 0,
+            ["density"] = 8,
+            ["iprecptns"] = 1,
             ["thickness"] = 830,
         }, -- end of ["clouds"]
         ["cyclones"] = {

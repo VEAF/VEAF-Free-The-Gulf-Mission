@@ -76,6 +76,7 @@ veafCarrierOperations.initialize()\
 veafNamedPoints.initialize()\
 veafSecurity.initialize()\
 veafCombatZone.initialize()\
+veafShortcuts.initialize()\
 veafInterpreter.initialize()\
 veafCapture.initialize()\
 ",
