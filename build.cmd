@@ -1,6 +1,6 @@
 @echo off
-set MISSION_NAME=VEAF_OpenTraining_Caucasus
-set THEATER_NAME=Caucasus
+set MISSION_NAME=PG_free_the_gulf
+set THEATER_NAME=PersianGulf
 echo.
 echo ----------------------------------------
 echo building %MISSION_NAME%
