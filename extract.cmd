@@ -15,7 +15,7 @@ echo defaults to not set
 IF [%LUA_SCRIPTS_DEBUG_PARAMETER%] == [] GOTO DefineDefaultLUA_SCRIPTS_DEBUG_PARAMETER
 goto DontDefineDefaultLUA_SCRIPTS_DEBUG_PARAMETER
 :DefineDefaultLUA_SCRIPTS_DEBUG_PARAMETER
-set LUA_SCRIPTS_DEBUG_PARAMETER=	
+set LUA_SCRIPTS_DEBUG_PARAMETER=
 :DontDefineDefaultLUA_SCRIPTS_DEBUG_PARAMETER
 echo current value is "%LUA_SCRIPTS_DEBUG_PARAMETER%"
 
@@ -50,6 +50,10 @@ echo extracting MIZ files
 set MISSION_PATH=%cd%\src\mission
 "%SEVENZIP%" x -y *%MISSION_NAME%*.miz -o"%MISSION_PATH%\"
 
+rem -- set the loading to static in the mission file
+echo set the loading to static in the mission file
+powershell -Command "(gc %MISSION_PATH%\l10n\Default\dictionary) -replace 'return(\s*[^\s]+\s*)--true=dynamic, false=static', 'return false --true=dynamic, false=static' | sc %MISSION_PATH%\l10n\Default\dictionary"
+
 rem removing unwanted scripts
 echo removing unwanted scripts
 del /f /q "%MISSION_PATH%\l10n\Default\*.lua"
@@ -57,13 +61,13 @@ del /f /q "%MISSION_PATH%\options"
 
 rem setting the radio presets according to the settings file
 echo setting the radio presets according to the settings file
-pushd node_modules\veaf-mission-creation-tools\scripts\veaf
+pushd node_modules\veaf-mission-creation-tools\src\scripts\veaf
 "%LUA%" veafMissionRadioPresetsEditor.lua "%MISSION_PATH%" "%MISSION_PATH%\..\radio\radioSettings.lua" %LUA_SCRIPTS_DEBUG_PARAMETER%
 popd
 
 rem normalizing the mission files
 echo normalizing the mission files
-pushd node_modules\veaf-mission-creation-tools\scripts\veaf
+pushd node_modules\veaf-mission-creation-tools\src\scripts\veaf
 "%LUA%" veafMissionNormalizer.lua "%MISSION_PATH%" %LUA_SCRIPTS_DEBUG_PARAMETER%
 popd
 
