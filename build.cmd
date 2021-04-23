@@ -9,6 +9,16 @@ echo.
 rem -- default options values
 echo This script can use these environment variables to customize its behavior :
 echo ----------------------------------------
+echo NOPAUSE if set to "true", will not pause at the end of the script (useful to chain calls to this script)
+echo defaults to "false"
+IF [%NOPAUSE%] == [] GOTO DefineDefaultNOPAUSE
+goto DontDefineDefaultNOPAUSE
+:DefineDefaultNOPAUSE
+set NOPAUSE=false
+:DontDefineDefaultNOPAUSE
+echo current value is "%NOPAUSE%"
+
+echo ----------------------------------------
 echo VERBOSE_LOG_FLAG if set to "true", will create a mission with tracing enabled (meaning that, when run, it will log a lot of details in the dcs log file)
 echo defaults to "false"
 IF [%VERBOSE_LOG_FLAG%] == [] GOTO DefineDefaultVERBOSE_LOG_FLAG
@@ -39,18 +49,6 @@ set SECURITY_DISABLED_FLAG=false
 echo current value is "%SECURITY_DISABLED_FLAG%"
 
 echo ----------------------------------------
-echo MISSION_FILE_SUFFIX (a string) will be appended to the mission file name to make it more unique
-echo defaults to the current iso date
-IF [%MISSION_FILE_SUFFIX%] == [] GOTO DefineDefaultMISSION_FILE_SUFFIX
-goto DontDefineDefaultMISSION_FILE_SUFFIX
-:DefineDefaultMISSION_FILE_SUFFIX
-set TIMEBUILD=%TIME: =0%
-set MISSION_FILE_SUFFIX=%date:~-4,4%%date:~-7,2%%date:~-10,2%
-:DontDefineDefaultMISSION_FILE_SUFFIX
-set MISSION_FILE=.\build\%MISSION_NAME%_%MISSION_FILE_SUFFIX%
-echo current value is "%MISSION_FILE_SUFFIX%"
-
-echo ----------------------------------------
 echo SEVENZIP (a string) points to the 7za executable
 echo defaults "7za", so it needs to be in the path
 IF ["%SEVENZIP%"] == [""] GOTO DefineDefaultSEVENZIP
@@ -69,18 +67,88 @@ goto DontDefineDefaultLUA
 set LUA=lua
 :DontDefineDefaultLUA
 echo current value is "%LUA%"
+
+echo ----------------------------------------
+echo DYNAMIC_MISSION_PATH (a string) points to folder where this mission is located
+echo defaults this folder
+IF ["%DYNAMIC_MISSION_PATH%"] == [""] GOTO DefineDefaultDYNAMIC_MISSION_PATH
+goto DontDefineDefaultDYNAMIC_MISSION_PATH
+:DefineDefaultDYNAMIC_MISSION_PATH
+set DYNAMIC_MISSION_PATH=%~dp0
+:DontDefineDefaultDYNAMIC_MISSION_PATH
+echo current value is "%DYNAMIC_MISSION_PATH%"
+
+echo ----------------------------------------
+echo DYNAMIC_SCRIPTS_PATH (a string) points to folder where the VEAF-mission-creation-tools are located
+echo defaults this folder
+IF ["%DYNAMIC_SCRIPTS_PATH%"] == [""] GOTO DefineDefaultDYNAMIC_SCRIPTS_PATH
+goto DontDefineDefaultDYNAMIC_SCRIPTS_PATH
+:DefineDefaultDYNAMIC_SCRIPTS_PATH
+set DYNAMIC_SCRIPTS_PATH=%~dp0node_modules\veaf-mission-creation-tools\
+set NPM_UPDATE=true
+:DontDefineDefaultDYNAMIC_SCRIPTS_PATH
+echo current value is "%DYNAMIC_SCRIPTS_PATH%"
+
+echo ----------------------------------------
+echo MISSION_FILE_SUFFIX1 (a string) will be appended to the mission file name to make it more unique
+echo defaults to empty
+IF [%MISSION_FILE_SUFFIX1%] == [] GOTO DefineDefaultMISSION_FILE_SUFFIX1
+goto DontDefineDefaultMISSION_FILE_SUFFIX1
+:DefineDefaultMISSION_FILE_SUFFIX1
+set MISSION_FILE_SUFFIX1=
+:DontDefineDefaultMISSION_FILE_SUFFIX1
+echo current value is "%MISSION_FILE_SUFFIX1%"
+
+echo ----------------------------------------
+echo MISSION_FILE_SUFFIX2 (a string) will be appended to the mission file name to make it more unique
+echo defaults to the current iso date
+IF [%MISSION_FILE_SUFFIX2%] == [] GOTO DefineDefaultMISSION_FILE_SUFFIX2
+goto DontDefineDefaultMISSION_FILE_SUFFIX2
+:DefineDefaultMISSION_FILE_SUFFIX2
+set TIMEBUILD=%TIME: =0%
+set MISSION_FILE_SUFFIX2=%date:~-4,4%%date:~-7,2%%date:~-10,2%
+:DontDefineDefaultMISSION_FILE_SUFFIX2
+echo current value is "%MISSION_FILE_SUFFIX2%"
+
 echo ----------------------------------------
 
-echo.
-echo fetching the veaf-mission-creation-tools package
-call npm update
-rem echo on
+IF [%MISSION_FILE_SUFFIX1%] == [] GOTO DontUseSuffix1
+set MISSION_FILE=.\build\%MISSION_NAME%_%MISSION_FILE_SUFFIX1%_%MISSION_FILE_SUFFIX2%
+goto EndOfSuffix1
+:DontUseSuffix1
+set MISSION_FILE=.\build\%MISSION_NAME%_%MISSION_FILE_SUFFIX2%
+:EndOfSuffix1
 
-rem -- prepare the folders
-echo preparing the folders
+echo.
+echo Building %MISSION_FILE%.miz
+
+echo.
+echo prepare the folders
 rd /s /q .\build
 mkdir .\build
-mkdir .\build\tempsrc
+
+IF ["%NPM_UPDATE%"] == [""] GOTO DontNPM_UPDATE
+echo fetch the veaf-mission-creation-tools package
+call npm update
+goto DoNPM_UPDATE
+:DontNPM_UPDATE
+echo skipping npm update
+:DoNPM_UPDATE
+
+echo prepare the veaf-mission-creation-tools scripts
+rem -- copy the scripts folder
+xcopy /s /y /e %DYNAMIC_SCRIPTS_PATH%\src\scripts\* .\build\tempscripts\ >nul 2>&1
+
+rem -- set the flags in the scripts according to the options
+echo set the flags in the scripts according to the options
+powershell -File replace.ps1 .\build\tempscripts\veaf\veaf.lua "veaf.Development = (true|false)" "veaf.Development = %VERBOSE_LOG_FLAG%" >nul 2>&1
+powershell -File replace.ps1 .\build\tempscripts\veaf\veaf.lua "veaf.SecurityDisabled = (true|false)" "veaf.SecurityDisabled = %SECURITY_DISABLED_FLAG%" >nul 2>&1
+
+if %VERBOSE_LOG_FLAG%==false (
+	rem -- comment all the trace and debug code
+	echo comment all the trace and debug code
+	FOR %%f IN (.\build\tempscripts\veaf\*.lua) DO powershell -File replace.ps1 %%f "(^\s*)(veaf.*\.[^\(^\s]*log(Trace|Debug|Marker))" "$1--$2" >nul 2>&1
+)
 
 echo building the mission
 rem -- copy all the source mission files and mission-specific scripts
@@ -90,34 +158,58 @@ xcopy /y /e src\scripts\*.lua .\build\tempsrc\l10n\Default\  >nul 2>&1
 
 rem -- set the radio presets according to the settings file
 echo set the radio presets according to the settings file
-pushd node_modules\veaf-mission-creation-tools\scripts\veaf
-"%LUA%" veafMissionRadioPresetsEditor.lua  ..\..\..\..\build\tempsrc ..\..\..\..\src\radio\radioSettings.lua %LUA_SCRIPTS_DEBUG_PARAMETER%
+pushd %DYNAMIC_SCRIPTS_PATH%\src\scripts\veaf
+"%LUA%" veafMissionRadioPresetsEditor.lua  %DYNAMIC_MISSION_PATH%\build\tempsrc %DYNAMIC_MISSION_PATH%\src\radio\radioSettings.lua %LUA_SCRIPTS_DEBUG_PARAMETER%
 popd
+
+rem -- set the dynamic load variables in the dictionary
+echo set the dynamic load variables in the dictionary
+powershell -Command "$temp='VEAF_DYNAMIC_PATH = [[' + [regex]::escape('%DYNAMIC_SCRIPTS_PATH%') + ']]'; (gc .\build\tempsrc\l10n\DEFAULT\dictionary) -replace 'VEAF_DYNAMIC_PATH(\s*)=(\s*)\[\[.*\]\]', $temp | sc .\build\tempsrc\l10n\DEFAULT\dictionary" >nul 2>&1
+powershell -Command "$temp='VEAF_DYNAMIC_MISSIONPATH = [[' + [regex]::escape('%DYNAMIC_MISSION_PATH%') + ']]'; (gc .\build\tempsrc\l10n\DEFAULT\dictionary) -replace 'VEAF_DYNAMIC_MISSIONPATH(\s*)=(\s*)\[\[.*\]\]', $temp | sc .\build\tempsrc\l10n\DEFAULT\dictionary" >nul 2>&1
+
+rem -- disable the C130 module requirement
+powershell -File replace.ps1 .\build\tempsrc\mission "\[\"Hercules\"\] = \"Hercules\"," " " >nul 2>&1
+
+rem -- disable the A-4E-C module requirement
+powershell -File replace.ps1 .\build\tempsrc\mission "\[\"A-4E-C\"\] = \"A-4E-C\"," " " >nul 2>&1
 
 rem -- copy the documentation images to the kneeboard
 xcopy /y /e doc\*.jpg .\build\tempsrc\KNEEBOARD\IMAGES\ >nul 2>&1
 
 rem -- copy all the community scripts
 copy .\src\scripts\community\*.lua .\build\tempsrc\l10n\Default  >nul 2>&1
-copy .\node_modules\veaf-mission-creation-tools\scripts\community\*.lua .\build\tempsrc\l10n\Default  >nul 2>&1
+copy .\build\tempscripts\community\*.lua .\build\tempsrc\l10n\Default >nul 2>&1
 
 rem -- copy all the common scripts
-copy .\node_modules\veaf-mission-creation-tools\scripts\veaf\*.lua .\build\tempsrc\l10n\Default  >nul 2>&1
+copy .\build\tempscripts\veaf\*.lua .\build\tempsrc\l10n\Default >nul 2>&1
 
-rem -- set the flags in the scripts according to the options
-powershell -Command "(gc .\build\tempsrc\l10n\Default\veaf.lua) -replace 'veaf.Development = false', 'veaf.Development = %VERBOSE_LOG_FLAG%' | sc .\build\tempsrc\l10n\Default\veaf.lua" >nul 2>&1
-powershell -Command "(gc .\build\tempsrc\l10n\Default\veaf.lua) -replace 'veaf.SecurityDisabled = false', 'veaf.SecurityDisabled = %SECURITY_DISABLED_FLAG%' | sc .\build\tempsrc\l10n\Default\veaf.lua" >nul 2>&1
+rem -- normalize the mission files
+pushd %DYNAMIC_SCRIPTS_PATH%\src\scripts\veaf
+"%LUA%" veafMissionNormalizer.lua %DYNAMIC_MISSION_PATH%\build\tempsrc %LUA_SCRIPTS_DEBUG_PARAMETER%
+popd
 
-rem -- normalize and prepare the weather and time version 
-FOR %%f IN (.\src\weatherAndTime\*.lua) DO call normalize.cmd %%~nf
+rem -- compile the mission
+"%SEVENZIP%" a -r -tzip %MISSION_FILE%.miz .\build\tempsrc\* -mem=AES256 >nul 2>&1
 
-rem -- cleanup
+rem -- cleanup the mission files
 rd /s /q .\build\tempsrc
+
+rem -- cleanup the veaf-mission-creation-tools scripts
+rd /s /q .\build\tempscripts
+
+rem -- generate the time and weather versions
+rem echo generate the time and weather versions
+rem echo ----------------------------------------
+rem we'll do it on the server
+rem node node_modules\veaf-mission-creation-tools\src\nodejs\app.js injectall --quiet "%MISSION_FILE%.miz" "%MISSION_FILE%-${version}.miz" src\weatherAndTime\versions.json
 
 echo.
 echo ----------------------------------------
 rem -- done !
 echo Built %MISSION_FILE%.miz
 echo ----------------------------------------
+echo.
 
+IF [%NOPAUSE%] == [true] GOTO EndOfFile
 pause
+:EndOfFile
